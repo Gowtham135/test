@@ -1,9 +1,7 @@
 from setuptools import setup
 
 
-def readme():
-    with open('README.md') as f:
-        return f.read()
+
 
 with open('requirements.txt') as f:
     required = f.read().splitlines()
@@ -11,7 +9,7 @@ with open('requirements.txt') as f:
 setup(name='faced',
       version='0.1',
       description='Face detection using deep learning',
-      long_description=readme(),
+      long_description='Description',
       classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
